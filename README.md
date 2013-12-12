@@ -3,7 +3,7 @@
 ##What is this?
 A simple way to set up hackage mirror.
 
-#How long will it take to run once?
+##How long it gonna take to run once?
 It depends. The first time is really, really slow for me.
 
 ##How to use it?
