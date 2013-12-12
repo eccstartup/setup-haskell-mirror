@@ -21,6 +21,18 @@ Maybe...
 ##Any other configurations needed?
 Nope, unless you don't have something like `apache2` installed.
 
+##How to setup `cabal` if I want to use it?
+Simple, in `~/.cabal/config`, change
+```
+remote-repo: hackage.haskell.org:http://hackage.haskell.org/packages/archive
+```
+to
+```
+remote-repo: hackage1:http://some/url/to/that/server/hackage
+-- remote-repo: hackage.haskell.org:http://hackage.haskell.org/packages/archive
+```
+Then run `cabal update`, and you can `cabal install` any package.
+
 ##Any other ways?
 Check [this](https://github.com/eccstartup/qpalzm) out.
 
