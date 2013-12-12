@@ -4,7 +4,7 @@
 A simple way to set up hackage mirror.
 
 ###How long it gonna take to run once?
-It depends. The first time is really, really slow for me.
+It depends. The first time is really, really slow for me. On average, less than half an hour.
 
 ###How to use it?
 `mkdir` a folder, put this script in `$PATH`, and run it.
@@ -37,10 +37,11 @@ Then run `cabal update`, and you can `cabal install` any package.
 Check [this](https://github.com/eccstartup/qpalzm) out.
 
 ###How to contact?
-Email:[zhiwudazhanjiangshi@gmail.com](zhiwudazhanjiangshi@gmail.com), seriously.
+Email: [zhiwudazhanjiangshi@gmail.com](zhiwudazhanjiangshi@gmail.com), seriously.
 
 ###License?
 Copyright (c) 2013, eccstartup
+
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
