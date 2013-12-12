@@ -9,6 +9,9 @@ It depends. The first time is really, really slow for me. On average, less than 
 ###How to use it?
 `mkdir` a folder, put this script in `$PATH`, and run it.
 
+###What the size of this mirror will be?
+2.7G.
+
 ###Where did you get this script?
 See where I focked from [here](https://gist.github.com/eccstartup/7889417).
 
