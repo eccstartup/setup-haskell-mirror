@@ -1,27 +1,27 @@
 #Set up a hackage mirror.
 
-##What is this?
+###What is this?
 A simple way to set up hackage mirror.
 
-##How long it gonna take to run once?
+###How long it gonna take to run once?
 It depends. The first time is really, really slow for me.
 
-##How to use it?
+###How to use it?
 `mkdir` a folder, put this script in `$PATH`, and run it.
 
-##Where did you get this script?
+###Where did you get this script?
 See where I focked from [here](https://gist.github.com/eccstartup/7889417).
 
-##Have you tested it?
+###Have you tested it?
 Sure.
 
-##Will you use it?
+###Will you use it?
 Maybe...
 
-##Any other configurations needed?
+###Any other configurations needed?
 Nope, unless you don't have something like `apache2` installed.
 
-##How to setup `cabal` if I want to use it?
+###How to setup `cabal` if I want to use it?
 Simple, in `~/.cabal/config`, change
 ```
 remote-repo: hackage.haskell.org:http://hackage.haskell.org/packages/archive
@@ -33,13 +33,13 @@ remote-repo: hackage1:http://some/url/to/that/server/hackage
 ```
 Then run `cabal update`, and you can `cabal install` any package.
 
-##Any other ways?
+###Any other ways?
 Check [this](https://github.com/eccstartup/qpalzm) out.
 
-##How to contact?
+###How to contact?
 Email:[zhiwudazhanjiangshi@gmail.com](zhiwudazhanjiangshi@gmail.com), seriously.
 
-##License?
+###License?
 Copyright (c) 2013, eccstartup
 All rights reserved.
 
