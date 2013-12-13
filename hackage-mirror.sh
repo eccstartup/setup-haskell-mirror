@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /home/eccstartup/mirror/hackage
-echo "Cleaning up..."
+#echo "Cleaning up..."
 # rm 00-index.tar.gz
 mkdir -p package
 echo "Downloading index..."
